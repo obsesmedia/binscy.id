@@ -7,7 +7,7 @@ export default async function Payment({ params }: any) {
   const dataProducts = async () => {
     try {
       const data = await axios.post(
-        "https://topup-game-beta.vercel.app/api/paymentDetails",
+        "https://binscystore.vercel.app/api/paymentDetails",
         {
           id: params.slug,
         }
